@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Dec 14 22:46:14 2016
+# Process ID: 10392
+# Current directory: C:/Users/Maria/Desktop/lab52
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12840 C:\Users\Maria\Desktop\lab52\lab52.xpr
+# Log file: C:/Users/Maria/Desktop/lab52/vivado.log
+# Journal file: C:/Users/Maria/Desktop/lab52\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Maria/Desktop/lab52/lab52.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:01:16 . Memory (MB): peak = 694.266 ; gain = 138.492
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/new/circuito_dados.vhd" into library xil_defaultlib [C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/new/circuito_dados.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/placa/clkdiv.vhd" into library xil_defaultlib [C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/placa/clkdiv.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/design/code_mgr.vhd" into library xil_defaultlib [C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/design/code_mgr.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/design/ctr_16.vhd" into library xil_defaultlib [C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/design/ctr_16.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/placa/disp7.vhd" into library xil_defaultlib [C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/placa/disp7.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/design/ff_de.vhd" into library xil_defaultlib [C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/design/ff_de.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/new/maquina_estados.vhd" into library xil_defaultlib [C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/new/maquina_estados.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/placa/sd.vhd" into library xil_defaultlib [C:/Users/Maria/Desktop/lab52/lab52.srcs/sources_1/imports/placa/sd.vhd:1]
+[Wed Dec 14 22:51:35 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Maria/Desktop/lab52/lab52.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 747.762 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+[Wed Dec 14 22:58:12 2016] Launched impl_1...
+Run output will be captured here: C:/Users/Maria/Desktop/lab52/lab52.runs/impl_1/runme.log
+archive_project C:/Users/Maria/Desktop/lab52.xpr.zip -temp_dir C:/Users/Maria/Desktop/lab52/.Xil/Vivado-10392-PC -force
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Maria/Desktop/lab52/.Xil/Vivado-10392-PC' for archiving project
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/Maria/Desktop/lab52/lab52.cache/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'

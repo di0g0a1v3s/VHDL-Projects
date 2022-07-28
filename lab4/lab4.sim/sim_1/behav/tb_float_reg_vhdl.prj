@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../lab4.srcs/sources_1/imports/design/ff_de.vhd"
+vhdl xil_defaultlib  "../../../lab4.srcs/sources_1/imports/design/float_reg_v2.vhd"
+vhdl xil_defaultlib  "../../../lab4.srcs/sim_1/imports/testebench/tb_float_reg.vhd"
+
+# Do not sort compile order
+nosort

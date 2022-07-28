@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Dec 01 20:05:22 2016
+# Process ID: 8492
+# Current directory: C:/Users/Maria/Desktop/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent932 C:\Users\Maria\Desktop\lab4\lab4.xpr
+# Log file: C:/Users/Maria/Desktop/lab4/vivado.log
+# Journal file: C:/Users/Maria/Desktop/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Maria/Desktop/lab4/lab4.xpr
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top float_reg [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source tb_float_add.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_float_reg [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source tb_float_reg.tcl
+restart
+run 600 ns
+add_wave {{/tb_float_reg/test_unit/mux_out}} 
+restart
+run 600 ns
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+close_sim
+close_sim
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sd [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+archive_project C:/Users/Maria/Desktop/lab4.xpr.zip -temp_dir C:/Users/Maria/Desktop/lab4/.Xil/Vivado-8492-PC -force

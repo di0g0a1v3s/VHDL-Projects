@@ -1,0 +1,424 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Nov 13 15:16:07 2016
+# Process ID: 6760
+# Current directory: C:/Users/Maria/Desktop/lab3/lab3.runs/synth_1
+# Command line: vivado.exe -log sd.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sd.tcl
+# Log file: C:/Users/Maria/Desktop/lab3/lab3.runs/synth_1/sd.vds
+# Journal file: C:/Users/Maria/Desktop/lab3/lab3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sd.tcl -notrace
+Command: synth_design -top sd -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7228 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 276.348 ; gain = 66.305
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sd' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/sd.vhd:45]
+INFO: [Synth 8-3491] module 'disp7' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/disp7.vhd:23' bound to instance 'udisp' of component 'disp7' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/sd.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'disp7' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/disp7.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'disp7' (1#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/disp7.vhd:35]
+INFO: [Synth 8-3491] module 'clkdiv' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/clkdiv.vhd:18' bound to instance 'uclk_gen' of component 'clkdiv' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/sd.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'clkdiv' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/clkdiv.vhd:25]
+INFO: [Synth 8-113] binding component instance 'BUFG_INST1' to cell 'BUFG' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/clkdiv.vhd:33]
+INFO: [Synth 8-113] binding component instance 'BUFG_INST2' to cell 'BUFG' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/clkdiv.vhd:43]
+INFO: [Synth 8-113] binding component instance 'BUFG_INST3' to cell 'BUFG' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/clkdiv.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'clkdiv' (2#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/clkdiv.vhd:25]
+INFO: [Synth 8-3491] module 'enigma' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/enigma.vhd:34' bound to instance 'inst_enigma' of component 'enigma' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/sd.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'enigma' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/enigma.vhd:43]
+INFO: [Synth 8-3491] module 'mess_gen' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/mess_gen.vhd:34' bound to instance 'inst_mess_gen' of component 'mess_gen' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/enigma.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'mess_gen' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/mess_gen.vhd:41]
+INFO: [Synth 8-3491] module 'ff_elem' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_elem.vhd:34' bound to instance 'ff_elem0' of component 'ff_elem' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/mess_gen.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'ff_elem' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_elem.vhd:47]
+INFO: [Synth 8-3491] module 'm21' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/m21.vhd:34' bound to instance 'm21_inst' of component 'm21' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_elem.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'm21' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/m21.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'm21' (3#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/m21.vhd:41]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_d.vhd:34' bound to instance 'ff_d_inst' of component 'ff_d' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_elem.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'ff_d' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_d.vhd:42]
+INFO: [Synth 8-5837] Detected dual asynchronous set and preset for register dout_reg in module ff_d. This is not a recommended register style for Xilinx devices  [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_d.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'ff_d' (4#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_d.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'ff_elem' (5#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_elem.vhd:47]
+INFO: [Synth 8-3491] module 'ff_elem' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_elem.vhd:34' bound to instance 'ff_elem1' of component 'ff_elem' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/mess_gen.vhd:74]
+INFO: [Synth 8-3491] module 'ff_elem' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_elem.vhd:34' bound to instance 'ff_elem2' of component 'ff_elem' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/mess_gen.vhd:80]
+INFO: [Synth 8-3491] module 'ff_elem' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_elem.vhd:34' bound to instance 'ff_elem3' of component 'ff_elem' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/mess_gen.vhd:86]
+INFO: [Synth 8-3491] module 'ff_elem' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_elem.vhd:34' bound to instance 'ff_elem4' of component 'ff_elem' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/mess_gen.vhd:92]
+INFO: [Synth 8-3491] module 'ff_elem' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/ff_elem.vhd:34' bound to instance 'ff_elem5' of component 'ff_elem' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/mess_gen.vhd:98]
+INFO: [Synth 8-256] done synthesizing module 'mess_gen' (6#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/mess_gen.vhd:41]
+INFO: [Synth 8-3491] module 'codificador' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/codificador.vhd:34' bound to instance 'inst_codificador' of component 'codificador' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/enigma.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'codificador' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/codificador.vhd:39]
+INFO: [Synth 8-3491] module 'somador4' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/somador4.vhd:34' bound to instance 'SOM1' of component 'somador4' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/codificador.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'somador4' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/somador4.vhd:43]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/full_adder.vhd:34' bound to instance 'UFA' of component 'full_adder' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/somador4.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/full_adder.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (7#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/full_adder.vhd:42]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/full_adder.vhd:34' bound to instance 'UFA' of component 'full_adder' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/somador4.vhd:60]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/full_adder.vhd:34' bound to instance 'UFA' of component 'full_adder' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/somador4.vhd:60]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/full_adder.vhd:34' bound to instance 'UFA' of component 'full_adder' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/somador4.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'somador4' (8#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/somador4.vhd:43]
+INFO: [Synth 8-3491] module 'somador4' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/somador4.vhd:34' bound to instance 'SOM2' of component 'somador4' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/codificador.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'codificador' (9#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/codificador.vhd:39]
+INFO: [Synth 8-3491] module 'descodificador' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/descodificador.vhd:34' bound to instance 'inst_descodificador' of component 'descodificador' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/enigma.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'descodificador' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/descodificador.vhd:39]
+INFO: [Synth 8-3491] module 'somador4' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/somador4.vhd:34' bound to instance 'SOM1' of component 'somador4' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/descodificador.vhd:61]
+INFO: [Synth 8-3491] module 'somador4' declared at 'C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/somador4.vhd:34' bound to instance 'SOM2' of component 'somador4' [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/descodificador.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'descodificador' (10#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/descodificador.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'enigma' (11#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/design_sources/enigma.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'sd' (12#1) [C:/Users/Maria/Desktop/lab3/lab3.srcs/sources_1/imports/placa/sd.vhd:45]
+WARNING: [Synth 8-3917] design sd has port LED[11] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[10] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[9] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[8] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[7] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[6] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[5] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[4] driven by constant 0
+WARNING: [Synth 8-3331] design sd has unconnected port SW[15]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[14]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[13]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[12]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[11]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[10]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[9]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[8]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[7]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[6]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[5]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[4]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[3]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[2]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[1]
+WARNING: [Synth 8-3331] design sd has unconnected port BTN[3]
+WARNING: [Synth 8-3331] design sd has unconnected port BTN[2]
+WARNING: [Synth 8-3331] design sd has unconnected port BTN[1]
+WARNING: [Synth 8-3331] design sd has unconnected port BTN[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:30 ; elapsed = 00:00:45 . Memory (MB): peak = 313.660 ; gain = 103.617
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:46 . Memory (MB): peak = 313.660 ; gain = 103.617
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Maria/Desktop/lab3/lab3.srcs/constrs_1/imports/placa/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/Maria/Desktop/lab3/lab3.srcs/constrs_1/imports/placa/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Maria/Desktop/lab3/lab3.srcs/constrs_1/imports/placa/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sd_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sd_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 607.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:10 ; elapsed = 00:01:46 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:10 ; elapsed = 00:01:46 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:10 ; elapsed = 00:01:47 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:11 ; elapsed = 00:01:48 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module disp7 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module m21 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module ff_d 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module ff_elem 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module full_adder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module somador4 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design sd has port LED[15] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[14] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[11] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[10] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[9] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[8] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[7] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[6] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[5] driven by constant 0
+WARNING: [Synth 8-3917] design sd has port LED[4] driven by constant 0
+WARNING: [Synth 8-3331] design sd has unconnected port SW[15]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[14]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[13]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[12]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[11]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[10]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[9]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[8]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[7]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[6]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[5]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[4]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[3]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[2]
+WARNING: [Synth 8-3331] design sd has unconnected port SW[1]
+WARNING: [Synth 8-3331] design sd has unconnected port BTN[3]
+WARNING: [Synth 8-3331] design sd has unconnected port BTN[2]
+WARNING: [Synth 8-3331] design sd has unconnected port BTN[1]
+WARNING: [Synth 8-3331] design sd has unconnected port BTN[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:51 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:53 ; elapsed = 00:02:34 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:53 ; elapsed = 00:02:34 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:54 ; elapsed = 00:02:34 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:56 ; elapsed = 00:02:37 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:56 ; elapsed = 00:02:38 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:56 ; elapsed = 00:02:38 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:56 ; elapsed = 00:02:38 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:56 ; elapsed = 00:02:38 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:56 ; elapsed = 00:02:38 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |     7|
+|3     |LUT1   |    28|
+|4     |LUT2   |     6|
+|5     |LUT3   |    11|
+|6     |LUT4   |     9|
+|7     |LUT6   |     6|
+|8     |MUXF7  |     4|
+|9     |FDCE   |     6|
+|10    |FDPE   |     4|
+|11    |FDRE   |    35|
+|12    |LDC    |     4|
+|13    |IBUF   |     3|
+|14    |OBUF   |    28|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+----------+------+
+|      |Instance          |Module    |Cells |
++------+------------------+----------+------+
+|1     |top               |          |   154|
+|2     |  inst_enigma     |enigma    |    42|
+|3     |    inst_mess_gen |mess_gen  |    42|
+|4     |      ff_elem0    |ff_elem   |     9|
+|5     |        ff_d_inst |ff_d_9    |     9|
+|6     |      ff_elem1    |ff_elem_0 |    15|
+|7     |        ff_d_inst |ff_d_8    |    15|
+|8     |      ff_elem2    |ff_elem_1 |     5|
+|9     |        ff_d_inst |ff_d_7    |     5|
+|10    |      ff_elem3    |ff_elem_2 |     2|
+|11    |        ff_d_inst |ff_d_6    |     2|
+|12    |      ff_elem4    |ff_elem_3 |     4|
+|13    |        ff_d_inst |ff_d_5    |     4|
+|14    |      ff_elem5    |ff_elem_4 |     7|
+|15    |        ff_d_inst |ff_d      |     7|
+|16    |  uclk_gen        |clkdiv    |    64|
+|17    |  udisp           |disp7     |    17|
++------+------------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:56 ; elapsed = 00:02:38 . Memory (MB): peak = 607.125 ; gain = 397.082
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 29 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:03 ; elapsed = 00:01:33 . Memory (MB): peak = 607.125 ; gain = 103.617
+Synthesis Optimization Complete : Time (s): cpu = 00:01:57 ; elapsed = 00:02:39 . Memory (MB): peak = 607.125 ; gain = 397.082
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  LDC => LDCE: 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+74 Infos, 56 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:51 ; elapsed = 00:02:25 . Memory (MB): peak = 607.125 ; gain = 397.082
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Maria/Desktop/lab3/lab3.runs/synth_1/sd.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.890 . Memory (MB): peak = 607.125 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 13 15:18:59 2016...

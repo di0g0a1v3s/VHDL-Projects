@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Apr 23 18:59:50 2017
+# Process ID: 4532
+# Current directory: C:/Users/Maria/Desktop/LAB25.3b/Project2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9108 C:\Users\Maria\Desktop\LAB25.3b\Project2\Project2.xpr
+# Log file: C:/Users/Maria/Desktop/LAB25.3b/Project2/vivado.log
+# Journal file: C:/Users/Maria/Desktop/LAB25.3b/Project2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Maria/Desktop/LAB25.3b/Project2/Project2.xpr
+archive_project C:/Users/Maria/Desktop/Lab2.xpr.zip -temp_dir C:/Users/Maria/Desktop/LAB25.3b/Project2/.Xil/Vivado-4532-PC -force -exclude_run_results

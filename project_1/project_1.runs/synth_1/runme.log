@@ -1,0 +1,532 @@
+
+*** Running vivado
+    with args -log DataPath.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DataPath.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source DataPath.tcl -notrace
+Command: synth_design -top DataPath -part xa7a35tcpg236-1I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1236 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:27 ; elapsed = 00:00:57 . Memory (MB): peak = 276.109 ; gain = 66.684
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'DataPath' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/DataPath.vhd:24]
+INFO: [Synth 8-3491] module 'RegisterFile' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:4' bound to instance 'RF1' of component 'RegisterFile' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/DataPath.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:15]
+INFO: [Synth 8-3491] module 'Decoder' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Decoder.vhd:4' bound to instance 'Decoder1' of component 'Decoder' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'Decoder' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Decoder.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'Decoder' (1#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Decoder.vhd:24]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R1' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Register16' (2#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:12]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R2' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:74]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R3' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:75]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R4' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:76]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R5' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:77]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R6' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:78]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R7' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:79]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R8' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:80]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R9' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:81]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R10' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:82]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R11' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:83]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R12' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:84]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R13' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:85]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R14' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:86]
+INFO: [Synth 8-3491] module 'Register16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/files/Register16.vhd:4' bound to instance 'R15' of component 'Register16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:87]
+INFO: [Synth 8-3491] module 'mux16to1_16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:4' bound to instance 'MA' of component 'mux16to1_16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'mux16to1_16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:25]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'mux16to1' (3#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:25]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-3491] module 'mux16to1' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1.vhd:4' bound to instance 'Mux' of component 'mux16to1' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'mux16to1_16' (4#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:25]
+INFO: [Synth 8-3491] module 'mux16to1_16' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/mux16to1_16.vhd:4' bound to instance 'MB' of component 'mux16to1_16' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (5#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/RegisterFile.vhd:15]
+INFO: [Synth 8-3491] module 'FunctionalUnit' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:4' bound to instance 'FU1' of component 'FunctionalUnit' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/DataPath.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'FunctionalUnit' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:12]
+INFO: [Synth 8-3491] module 'ArithmeticUnit' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:4' bound to instance 'AU1' of component 'ArithmeticUnit' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'ArithmeticUnit' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:13]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:13]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/nibbles/FullAdder.vhd:4' bound to instance 'FA' of component 'FullAdder' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/nibbles/FullAdder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (6#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/imports/nibbles/FullAdder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ArithmeticUnitI' (7#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:13]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'ArithmeticUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnitI.vhd:4' bound to instance 'AUi' of component 'ArithmeticUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:49]
+INFO: [Synth 8-3491] module 'Detect_low' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/new/Detect_low.vhd:4' bound to instance 'D_Low' of component 'Detect_low' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'Detect_low' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/new/Detect_low.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Detect_low' (8#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/new/Detect_low.vhd:10]
+INFO: [Synth 8-226] default block is never used [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'ArithmeticUnit' (9#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:13]
+INFO: [Synth 8-3491] module 'LogicUnit' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:4' bound to instance 'LU1' of component 'LogicUnit' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'LogicUnit' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:11]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:11]
+INFO: [Synth 8-226] default block is never used [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'LogicUnitI' (10#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:11]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-3491] module 'LogicUnitI' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnitI.vhd:4' bound to instance 'LUi' of component 'LogicUnitI' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'LogicUnit' (11#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/LogicUnit.vhd:11]
+INFO: [Synth 8-3491] module 'Shifter' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Shifter.vhd:4' bound to instance 'SH1' of component 'Shifter' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'Shifter' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Shifter.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Shifter.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Shifter' (12#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Shifter.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:58]
+INFO: [Synth 8-3491] module 'Zero' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Zero.vhd:4' bound to instance 'Zero1' of component 'Zero' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'Zero' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Zero.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Zero' (13#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Zero.vhd:9]
+INFO: [Synth 8-3491] module 'Buf' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Buf.vhd:4' bound to instance 'Buf1' of component 'Buf' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_Buf' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Buf.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_Buf' (14#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/Buf.vhd:9]
+INFO: [Synth 8-226] default block is never used [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:71]
+INFO: [Synth 8-226] default block is never used [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'FunctionalUnit' (15#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/FunctionalUnit.vhd:12]
+INFO: [Synth 8-3491] module 'DataMemory' declared at 'C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/DataMemory.vhd:5' bound to instance 'DM1' of component 'DataMemory' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/DataPath.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/DataMemory.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (16#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/DataMemory.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'DataPath' (17#1) [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/DataPath.vhd:24]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[15]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[14]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[13]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[12]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[11]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[10]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[9]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[8]
+WARNING: [Synth 8-3331] design ArithmeticUnitI has unconnected port FS[0]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port A[6]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port A[5]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port A[4]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port A[3]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port A[2]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port A[1]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port A[0]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port B[6]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port B[5]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port B[4]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port B[3]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port B[2]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port B[1]
+WARNING: [Synth 8-3331] design Detect_low has unconnected port B[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:34 ; elapsed = 00:01:06 . Memory (MB): peak = 322.000 ; gain = 112.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:35 ; elapsed = 00:01:08 . Memory (MB): peak = 322.000 ; gain = 112.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a35tcpg236-1I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:35 ; elapsed = 00:01:08 . Memory (MB): peak = 322.000 ; gain = 112.574
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xa7a35tcpg236-1I
+INFO: [Synth 8-5546] ROM "storage_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[32]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[33]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[34]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[35]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[36]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[37]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[38]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[39]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[40]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[41]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[42]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[43]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[44]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[45]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[46]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[47]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[48]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[49]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[50]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[51]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[52]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[53]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[54]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[55]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[56]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[57]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[58]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[59]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[60]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[61]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[62]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[63]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[64]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[65]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[66]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[67]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[68]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[69]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[70]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[71]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[72]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[73]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[74]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[75]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[76]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[77]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[78]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[79]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[80]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[81]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[82]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[83]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[84]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[85]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[86]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[87]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[88]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[89]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[90]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[91]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[92]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[93]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[94]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[95]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[96]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[97]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[98]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "storage_reg[99]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:52 ; elapsed = 00:01:20 . Memory (MB): peak = 399.223 ; gain = 189.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 65    
++---Registers : 
+	               16 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 6     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 257   
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module DataPath 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 5     
+Module Register16 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module FullAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module ArithmeticUnit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module LogicUnitI 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module Shifter 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module FunctionalUnit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input     16 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module DataMemory 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 256   
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[15]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[14]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[13]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[12]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[11]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[10]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[9]
+WARNING: [Synth 8-3331] design DataMemory has unconnected port Address[8]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:05 ; elapsed = 00:02:44 . Memory (MB): peak = 511.777 ; gain = 302.352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:05 ; elapsed = 00:02:45 . Memory (MB): peak = 511.777 ; gain = 302.352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:13 ; elapsed = 00:02:55 . Memory (MB): peak = 511.777 ; gain = 302.352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:18 ; elapsed = 00:03:01 . Memory (MB): peak = 511.777 ; gain = 302.352
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:19 ; elapsed = 00:03:01 . Memory (MB): peak = 511.777 ; gain = 302.352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:19 ; elapsed = 00:03:02 . Memory (MB): peak = 511.777 ; gain = 302.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:20 ; elapsed = 00:03:03 . Memory (MB): peak = 511.777 ; gain = 302.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:21 ; elapsed = 00:03:04 . Memory (MB): peak = 511.777 ; gain = 302.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:21 ; elapsed = 00:03:04 . Memory (MB): peak = 511.777 ; gain = 302.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     1|
+|3     |LUT2  |    42|
+|4     |LUT3  |   118|
+|5     |LUT4  |    60|
+|6     |LUT5  |   130|
+|7     |LUT6  |  1464|
+|8     |MUXF7 |   608|
+|9     |MUXF8 |   272|
+|10    |FDRE  |  4336|
+|11    |IBUF  |    40|
+|12    |OBUF  |    20|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+--------------+------+
+|      |Instance |Module        |Cells |
++------+---------+--------------+------+
+|1     |top      |              |  7092|
+|2     |  DM1    |DataMemory    |  6002|
+|3     |  RF1    |RegisterFile  |  1029|
+|4     |    R1   |Register16    |    17|
+|5     |    R10  |Register16_0  |    17|
+|6     |    R11  |Register16_1  |    17|
+|7     |    R12  |Register16_2  |   174|
+|8     |    R13  |Register16_3  |   569|
+|9     |    R14  |Register16_4  |    49|
+|10    |    R15  |Register16_5  |    50|
+|11    |    R2   |Register16_6  |    17|
+|12    |    R3   |Register16_7  |    17|
+|13    |    R4   |Register16_8  |    17|
+|14    |    R5   |Register16_9  |    17|
+|15    |    R6   |Register16_10 |    17|
+|16    |    R7   |Register16_11 |    17|
+|17    |    R8   |Register16_12 |    17|
+|18    |    R9   |Register16_13 |    17|
++------+---------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:21 ; elapsed = 00:03:04 . Memory (MB): peak = 511.777 ; gain = 302.352
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 31 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:09 ; elapsed = 00:02:28 . Memory (MB): peak = 511.777 ; gain = 302.352
+Synthesis Optimization Complete : Time (s): cpu = 00:02:21 ; elapsed = 00:03:04 . Memory (MB): peak = 511.777 ; gain = 302.352
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'DataPath' is not ideal for floorplanning, since the cellview 'DataMemory' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+243 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:24 ; elapsed = 00:02:58 . Memory (MB): peak = 547.086 ; gain = 337.660
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Maria/Desktop/project_1/project_1.runs/synth_1/DataPath.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 547.086 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 547.086 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 23 00:08:32 2017...

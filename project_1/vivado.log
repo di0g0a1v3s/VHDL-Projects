@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Mar 22 23:55:28 2017
+# Process ID: 8844
+# Current directory: C:/Users/Maria/Desktop/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9832 C:\Users\Maria\Desktop\project_1\project_1.xpr
+# Log file: C:/Users/Maria/Desktop/project_1/vivado.log
+# Journal file: C:/Users/Maria/Desktop/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Maria/Desktop/project_1/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'F:/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'project_1.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:47 . Memory (MB): peak = 732.840 ; gain = 72.953
+set_property top DataPath [current_fileset]
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd" into library xil_defaultlib [C:/Users/Maria/Desktop/project_1/project_1.srcs/sources_1/imports/sources_1/new/ArithmeticUnit.vhd:1]
+[Thu Mar 23 00:04:44 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Maria/Desktop/project_1/project_1.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 753.355 ; gain = 0.000
+archive_project C:/Users/Maria/Desktop/Lab1_Acomp_86980_87136.xpr.zip -temp_dir C:/Users/Maria/Desktop/project_1/.Xil/Vivado-8844-PC -force
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Maria/Desktop/project_1/.Xil/Vivado-8844-PC' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
